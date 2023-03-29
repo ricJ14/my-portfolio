@@ -8,12 +8,23 @@ module.exports = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
-      textColor: {
+      colors: {
         primary: "#ff0a65",
-        menu: "#281236"
+        menuText: "#281236",
+        menu: "#281236",
+        cover: "#ff0a65",
+        border:"rgba(66, 9, 129, 1)"
       },
-      backgroundColor: {
-        menu: "#ff0ac2", 
+      backgroundImage: {
+        gradient: "linear-gradient(180deg, rgba(34, 4, 66, 1) 0%, rgba(66, 9, 129, 1) 100%)",
+      },
+      animation: {
+        cover: "cover 0.5s forwards ease-out",
+      },
+      keyframes: {
+        cover: {
+          "100%": {width: "100%"}
+        }
       }
     },
   },
