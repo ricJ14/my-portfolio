@@ -128,8 +128,8 @@ const InteractiveMenu = () => {
            </div>
         }
 
-<div className={`absolute block w-full bg-menu z-20 transition-all duration-500 ease-in 
-        ${getCurrentMenuClicked ? 'bottom-0 h-full' : 'h-0'} ${isTimed && 'delay[unset] top-0 h-0'}`}></div>
+{/* <div className={`absolute block w-full bg-menu z-20 transition-all duration-500 ease-in 
+        ${getCurrentMenuClicked ? 'bottom-0 h-full' : 'h-0'} ${isTimed && 'delay[unset] top-0 h-0'}`}></div> */}
         </>
     )
 }
