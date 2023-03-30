@@ -15,7 +15,7 @@ const Contact = () => {
                 </div>
                 <div className='relative flex justify-center flex-col'>
                     <div className='pl-[10px] pt-[50px] text-center'>
-                        <p className='text-primary text-[20px] md:text-[40px]'>my-email@email.com</p>
+                        <p className='text-primary text-[20px] md:text-[40px]'><a href="mailto:mrjohnstonric@gmail.com">Email Me</a></p>
                     </div>
                     <div className='pl-[10px] pt-[10px] text-center'>
                     <a href="https://ricj14.artstation.com/"><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={artstationIcon} alt="artstation icon"></img></a>

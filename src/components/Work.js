@@ -1,17 +1,9 @@
-import ricjabsolute from '../images/ric-j-absolut-narcissist.jpg';
-import ricjbttf from '../images/ric-j-bttf-hoverboard-final.jpg';
-import ricjcrcover from '../images/ric-j-cr-cover-white-header-2.jpg';
-import ricjidposter from '../images/ric-j-idmultiposter.jpg';
-import Website1 from '../images/Akira1.png';
-import Website2 from '../images/TODwebsite.png';
+import Website1 from '../images/Portfolio-Challenge1.png';
+import Website2 from '../images/bootstrap-portfolio.jpg';
 
 const images = [
-    {image: ricjabsolute, title: 'Absolute Narcissist', description: 'A fictional poster campaign for absolut vodka.'},
-    {image: ricjbttf, title: 'Back to the Future Hoverboard Poster', description: 'A fanboy poster created in my spare time.'},
-    {image: ricjcrcover, title: 'Creative Review Cover Portrait', description: 'A fictional magazine cover for a uni project.'},
-    {image: ricjidposter, title: 'Sci-fi poster collection', description: 'A fictional sci-fi campaign for a uni project.'},
-    {image: Website1, title: 'Akira Themed Portfolio Website', description: 'A portfolio website I created using React and TailwindCSS.'},
-    {image: Website2, title: 'Taste Of Design website', description: 'A website redesign I created for a uni project.'},
+    {image: Website1, title: 'Portfolio Challenge 1', description: 'First Bootstrap-Portfolio Challenge.'},
+    {image: Website2, title: 'Portfolio Challenge 2', description: 'A portfolio website I created using React and TailwindCSS.'},
 ]
 
 const Work = () => {
