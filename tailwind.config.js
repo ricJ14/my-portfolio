@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         primary: "#ff0a65",
         menuText: "#281236",
-        menu: "#281236",
+        menu: "#ff0ac2",
         cover: "#ff0a65",
         border:"rgba(66, 9, 129, 1)"
       },
