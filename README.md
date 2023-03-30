@@ -16,4 +16,4 @@ I used Threejs to add the 3D model and add interactivity to the model and menu s
 
 
 
-![screenshot of website](images/localhost_3000_.png)
+![screenshot of website](src/images/localhost_3000_.png)
